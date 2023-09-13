@@ -858,3 +858,36 @@ footer
 .module-link-active {
 	font-style: italic;
 }
+
+.float-on-hover {
+	transition: transform .3s;
+  }
+  
+.float-on-hover:hover {
+transform: translateY(-10px);
+}
+
+.project-title {
+display: flex;
+align-items: baseline;
+}
+
+.project-title h3 {
+margin-right: 0.5em;
+}
+
+.codename {
+font-style: italic;
+margin-right: 0.5em;
+}
+
+.new-label {
+color: red;
+font-weight: bold;
+}
+
+.construction {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 2em;
+}

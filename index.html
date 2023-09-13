@@ -1,100 +1,169 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>LABRA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="rsc/css/labra.css" />
+  </head>
 
-<head>
-  <title>LABRA</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="rsc/css/labra.css">
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <a href="#" class="navbar-brand" data-toggle="dropdown" data-target="#labraBrandDropdown">L A B R A</a>
-    <div class="dropdown-wrapper">
-      <div class="dropdown-menu animated fadeInDownBrand" aria-labelledby="labraBrand" id="labraBrandDropdown">
-        <div class="unfinished">
-          <a class="dropdown-item" href="#">fasterFASTA</a>
-          <a class="dropdown-item" href="#">AKTAmercy</a>
-          <a class="dropdown-item" href="#">ELISATRON</a>
-        </div>
-        <a class="dropdown-item d-block d-sm-none" href='index.html'>Home</a>
-        <a class="dropdown-item d-block d-sm-none" href="mailto:adalton@wistar.org">Contact</a>
-      </div>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="navbarNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href='index.html'>Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:adalton@wistar.org">Contact</a>
-        </li>
-      </ul>
-    </div>
-    <div class="navbar position-relative ml-auto">
-      <div class="dropdown">
-        <img src="rsc/img/labrodark.png" alt="LABRA logo" class="labro-logo" onmouseover="this.src='rsc/img/labro.png';"
-          onmouseout="this.src='rsc/img/labrodark.png';" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false" id="labraLogo">
-        <div class="dropdown-menu dropdown-menu-left animated fadeInRightLogo position-absolute labro-dropdown-menu"
-          aria-labelledby="labraLogo">
-          <a class="dropdown-item" href="https://github.com/alxdolphin/labracadabrador/issues">Report a Bug</a>
-          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#settingsModal">Settings</a>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a
+        href="#"
+        class="navbar-brand"
+        data-toggle="dropdown"
+        data-target="#labraBrandDropdown"
+        >L A B R A</a
+      >
+      <div class="dropdown-wrapper">
+        <div
+          class="dropdown-menu animated fadeInDownBrand"
+          aria-labelledby="labraBrand"
+          id="labraBrandDropdown"
+        >
+          <a class="dropdown-item" href="CHROMER.html">AKTAmercy - "CHROMER"</a>
+          <div class="unfinished">
+            <a class="dropdown-item" href="#">fasterFASTA</a>
+            <a class="dropdown-item" href="#">ELISATRON</a>
+          </div>
+          <a class="dropdown-item d-block d-sm-none" href="index.html">Home</a>
+          <a
+            class="dropdown-item d-block d-sm-none"
+            href="mailto:adalton@wistar.org"
+            >Contact</a
+          >
         </div>
       </div>
-    </div>
-  </nav>
-  <div class="navbar-seperator"></div>
-  <!-- Main content -->
-
-  <div class="jumbotron jumbotron-fluid animated fadeIn">
-  </div>
-
-  <div class="container animated fadeIn">
-    <h2><strong>About LABRA</strong></h2>
-    <p><strong>LABRA</strong>, or <strong>L</strong>aboratory <strong>A</strong>utomatons for
-      <strong>B</strong>iomedical <strong>R</strong>esearch <strong>A</strong>cceleration, also known as
-      <strong>labracadabrador</strong>, is an open-source platform designed to streamline, automate, and otherwise
-      optimize experimental workflows in the field of biomedical research. LABRA aims to provide a suite of accessible
-      and modular utilities to improve the effeciency, accuracy, and reproducibility of experiments, and enable
-      researchers to focus on generating insights towards the advance and achievment of scientific knowledge and
-      research breakthroughs.</p>
-    <h2 style="margin-bottom: 20px;"><strong>Modules</strong></h2>
-    <div class="row">
-      <div class="col-sm-4 unfinished">
-        <div class="project-container" onclick="window.location.href='fasterFASTA.html';" style="cursor: pointer;">
-          <h3>fasterFASTA</h3>
-          <h6 style="color: red; font-weight: bold;">NEW!</h6>
-          <p>Parse FASTA files and configurably characterize protein constructs via vector-based motifs.</p>
-          <a href="https://github.com/alxdolphin/labracadabrador">Github</a><br><a
-            href="https://colab.research.google.com/drive/1AJCjKMQV5eZJ3xk_-rX6-dO096c3BC4c#scrollTo=iwYjhVPT8aw9">Google
-            Colab</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:adalton@wistar.org">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar position-relative ml-auto">
+        <div class="dropdown">
+          <img
+            src="rsc/img/labrodark.png"
+            alt="LABRA logo"
+            class="labro-logo"
+            onmouseover="this.src='rsc/img/labro.png';"
+            onmouseout="this.src='rsc/img/labrodark.png';"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            id="labraLogo"
+          />
+          <div
+            class="dropdown-menu dropdown-menu-left animated fadeInRightLogo position-absolute labro-dropdown-menu"
+            aria-labelledby="labraLogo"
+          >
+            <a
+              class="dropdown-item"
+              href="https://github.com/alxdolphin/labracadabrador/issues"
+              >Report a Bug</a
+            >
+            <a
+              class="dropdown-item"
+              href="#"
+              data-toggle="modal"
+              data-target="#settingsModal"
+              >Settings</a
+            >
+          </div>
         </div>
       </div>
-      <div class="col-sm-4 unfinished">
-        <h3>AKTAmercy</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim
-          sit amet, adipiscing nec, ultricies sed, dolor.</p>
-      </div>
-      <div class="col-sm-4 unfinished">
-        <h3>ELISATRON</h3>
-        <p>You must have really good eyesight if you're reading this. Or you're looking at the source. I'm writing this
-          so its not as obvious I'm lorem ipsum leviosa.</p>
+    </nav>
+    <div class="navbar-seperator"></div>
+    <!-- Main content -->
+
+    <div class="jumbotron jumbotron-fluid animated fadeIn"></div>
+
+    <div class="container animated fadeIn">
+      <h2><strong>About LABRA</strong></h2>
+      <p>
+        <strong>LABRA</strong>, or <strong>L</strong>aboratory
+        <strong>A</strong>utomatons for <strong>B</strong>iomedical
+        <strong>R</strong>esearch <strong>A</strong>cceleration, also known as
+        <strong>labracadabrador</strong>, is an open-source platform designed to
+        streamline, automate, and otherwise optimize experimental workflows in
+        the field of biomedical research. LABRA aims to provide a suite of
+        accessible and modular utilities to improve the efficiency, accuracy,
+        and reproducibility of experiments, and enable researchers to focus on
+        generating insights towards the advance and achievment of scientific
+        knowledge and research breakthroughs.
+      </p>
+      <h2 style="margin-bottom: 20px"><strong>AUTOMATA</strong></h2>
+      <div class="row">
+        <div class="col-sm-4 unfinished">
+          <div
+            class="project-container"
+            onclick="window.location.href='fasterFASTA.html';"
+            style="cursor: pointer"
+          >
+            <h3>fasterFASTA - ???</h3>
+            <p>
+              Parse FASTA files and configurably characterize protein constructs
+              via vector-based motifs.
+            </p>
+            <a href="https://github.com/alxdolphin/labracadabrador">Github</a
+            ><br /><a
+              href="https://colab.research.google.com/drive/1AJCjKMQV5eZJ3xk_-rX6-dO096c3BC4c#scrollTo=iwYjhVPT8aw9"
+              >Google Colab</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4 float-on-hover" onclick="window.location.href='CHROMER.html';" style="cursor: pointer">
+          <h3><b> AKTAmercy "CHROMER" </b></h3>
+            <h6 style="color: red; font-weight: bold">NEW!</h6> <h6> <i>v1.0.0</i> </h6>
+          <p>
+            A Pythonic automaton that facilitates the post-processing of chromatographic data generated by AKTA Pure systems running UNICORN 7.0+.
+          </p>
+          <a href="https://github.com/alxdolphin/AKTAmercy">Github</a
+            ><br /><a
+              href="https://colab.research.google.com/drive/1AJCjKMQV5eZJ3xk_-rX6-dO096c3BC4c#scrollTo=iwYjhVPT8aw9"
+              >Google Colab</a
+            >
+        </div>
+        <div class="col-sm-4 unfinished">
+          <h3>ELISATRON - ???</h3>
+          <p>
+            You must have really good eyesight if you're reading this. Or you're
+            looking at the source. I'm writing this so its not as obvious I'm
+            lorem ipsum leviosa.
+          </p>
+          <a href="https://github.com/alxdolphin/AKTAmercy">Github</a
+            ><br /><a
+              href="https://colab.research.google.com/drive/1AJCjKMQV5eZJ3xk_-rX6-dO096c3BC4c#scrollTo=iwYjhVPT8aw9"
+              >Google Colab</a
+            >
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 
-<!-- Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="rsc/js/labra.js"></script>
-
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="rsc/js/labra.js"></script>
 </html>
